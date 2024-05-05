@@ -60,7 +60,7 @@ g = Graph(V)
 
 # Taking user input for the edges of the graph
 print("Enter the edges (vertex1 vertex2 weight): ")
-for i in range(V - 1):
+for i in range(V):
     u, v, w = map(int, input().split())
     g.addEdge(u, v, w)
 
